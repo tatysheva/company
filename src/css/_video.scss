@@ -25,4 +25,15 @@
     position: absolute;
     top: 40%;
     right: 35%;
+    @include media-tabletbig {
+        right: 30%;
+        top: 35%;
+    }
+    @include media-tablet {
+        right: 25%;
+    }
+    @include media-mobile {
+        width: 170px;
+        height: 50px;
+    }
 }

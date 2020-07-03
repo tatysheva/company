@@ -23,8 +23,21 @@
 
 .layout-3-column {
     @include columns($width: 30%);
+    img {
+        @include media-laptop {
+            width: 50%;
+            margin: auto;
+        }
+    }
+    @include media-laptop {
+        flex-direction: column;
+    }
 }
 
 .layout-5-column {
     @include columns($width: 20%);
+    @include media-mobile {
+        flex-direction: column;
+        align-items: center;
+    }
 }

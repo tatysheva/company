@@ -196,7 +196,7 @@
   }
   
   .hero {
-    background-image: url("/bg.a3e0843c.png");
+    background-image: url("../img/bg.png");
     background-size: cover;
     height: 100vh;
     background-repeat: no-repeat;

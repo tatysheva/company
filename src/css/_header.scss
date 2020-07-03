@@ -1,0 +1,26 @@
+.header {
+    padding: 30px 0;
+    border-bottom: 1px solid #ffffff;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+.navigation__item {
+    text-decoration: none;
+    color: #ffffff;
+    margin-left: 42px;
+    font-size: 1.6rem;
+    line-height: 20px;
+    font-weight: 500;
+    // :hover {
+    //     border-bottom: 2px solid #000000;
+    // }
+}

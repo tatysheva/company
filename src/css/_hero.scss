@@ -1,0 +1,22 @@
+.hero {
+    background-image: url("../img/bg.png");
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #ffffff;
+    padding: 300px 0 335px;
+    position: relative;
+}
+
+.hero__title {
+    padding: 20px 100px 50px;
+    font-weight: 800;
+    font-size: 4.8rem;
+    line-height: 64px;
+}
+
+.hero__subtitle {
+    font-weight: 500;
+    line-height: 20px;
+}
